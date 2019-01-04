@@ -21,12 +21,12 @@ python bot.py --email='<your_email>' --password='<your_password>' --keyword='<se
 
 ## Full usage
 ```
-python bot.py --email='<your_email>' --password='<your_password>' --keyword='<search_word_query>,<other_search_word_query>,<other_search_word_query>...' --initial_page=<search_page_to_init_crawller> --last_page=<search_page_to_finish_crawller> --chrome_dir='<your_bin_chrome_directory --language='pt-br''
+python bot.py --email='<your_email>' --password='<your_password>' --keyword='<search_word_query>,<other_search_word_query>,<other_search_word_query>...' --initial_page=<search_page_to_init_crawller> --last_page=<search_page_to_finish_crawller> --chrome_dir='<your_bin_chrome_directory --language='<language>'
 ```
 
 ### Example
 ```
-python bot.py --email='foo@bar.com' --password='f00_B@r123' --keyword='python developer,devops,machine learning engineer' --initial_page=1 --last_page=20 --chrome_dir='/bin/google-chrome-stable'
+python bot.py --email='foo@bar.com' --password='f00_B@r123' --keyword='python developer,devops,machine learning engineer' --initial_page=1 --last_page=20 --chrome_dir='/bin/google-chrome-stable' --language='pt-br'
 ```
 
 ### Parameters
@@ -60,12 +60,13 @@ optional arguments:
 
 ### Probabily you will need install geckodriver (linux)
 
-[ARCH]
+#### ARCH
 ```
 sudo pacman -S geckodriver
 ```
 
-[General linux]<br>
+#### General linux
+
 Go to the geckodriver releases page. Download the latest version of the driver for your platform, example:
 ```
 wget https://github.com/mozilla/geckodriver/releases/download/v0.18.0/geckodriver-v0.18.0-linux64.tar.gz

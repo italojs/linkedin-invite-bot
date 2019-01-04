@@ -60,7 +60,7 @@ optional arguments:
 
 ### Probabily you will need install geckodriver (linux)
 
-#### ARCH
+#### ARCH LINUX
 ```
 sudo pacman -S geckodriver
 ```

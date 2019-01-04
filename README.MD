@@ -65,7 +65,7 @@ optional arguments:
 sudo pacman -S geckodriver
 ```
 
-#### General linux
+#### OTHERS LINUX
 
 Go to the geckodriver releases page. Download the latest version of the driver for your platform, example:
 ```

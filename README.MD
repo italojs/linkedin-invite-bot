@@ -4,7 +4,7 @@ It's a linkedin crawller to connect with everyone in a people search
 
 ## Install
 ```
-pip intall -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Basic usage

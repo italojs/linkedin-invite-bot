@@ -13,7 +13,7 @@ class Linkedin(object):
 
 
     def __search_by(self, page):
-        self.__browser.get("https://www.linkedin.com/search/results/people/?keywords={}&origin=SWITCH_SEARCH_VERTICAL&page={}".format(self.__keyword, page))
+        self.__browser.get('https://www.linkedin.com/search/results/people/?facetNetwork=%5B"O"%2C"S"%5D&keywords={}&origin=SWITCH_SEARCH_VERTICAL&page={}'.format(self.__keyword, page))
         
     def __scroll_entry_page(self):
         pagedowns = 20

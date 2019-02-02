@@ -7,6 +7,18 @@ It's a linkedin crawller to connect with everyone in a people search
 pip install -r requirements.txt
 ```
 
+## Install chrome driver
+in your terminal
+```
+cd ~
+wget https://chromedriver.storage.googleapis.com/2.41/chromedriver_linux64.zip
+unzip chromedriver_linux64.zip
+sudo mv chromedriver /usr/bin/chromedriver
+sudo chown root:root /usr/bin/chromedriver
+sudo chmod +x /usr/bin/chromedriver
+
+```
+
 ## Basic usage
 ```
 python bot.py --email='<your_email>' --password='<your_password>' --keyword='<search_word_query>,<other_search_word_query>..."
